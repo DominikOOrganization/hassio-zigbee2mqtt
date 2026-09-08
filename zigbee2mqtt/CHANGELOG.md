@@ -97,7 +97,7 @@
 
 ## 1.42.0-2
 
-- Attempt to fix https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/issues/664
+- Attempt to fix https://github.com/dominikoorganization/hassio-zigbee2mqtt/issues/664
 
 ## 1.42.0-1
 
