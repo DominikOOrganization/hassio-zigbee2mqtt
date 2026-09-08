@@ -18,7 +18,7 @@
             <img src="https://img.shields.io/discord/556563650429583360.svg">
         </a>
     </div>
-    <h1>Official Zigbee2MQTT Home Assistant app</h1>
+    <h1>Official Zigbee2MQTT Home Assistant app Dominik Ochlast</h1>
 </div>
 
 > [!CAUTION]
@@ -69,7 +69,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 All notable changes to this project will be documented in the [CHANGELOG.md](zigbee2mqtt/CHANGELOG.md) file.
 
-Version for releases is based on [Zigbee2MQTT](https://github.com/Koenkk/zigbee2mqtt) format: `X.Y.Z`.
+Version for releases is based on [Zigbee2MQTT](https://github.com/DominikOOrganization/zigbee2mqtt) format: `X.Y.Z`.
 
 Any changes on the app that do not require a new version of Zigbee2MQTT will use the format: `X.Y.Z-A` where `X.Y.Z` is fixed on the Zigbee2MQTT release version and `A` is related to the app.
 
@@ -77,7 +77,7 @@ Edge version will not maintain a CHANGELOG and doesn't have a version.
 
 ## Issues
 
-If you find any issues with the app, please check the [issue tracker](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/issues) for similar issues before creating one. If your issue is regarding specific devices or, more generally, an issue that arises after Zigbee2MQTT has successfully started, it should likely be reported in the [Zigbee2MQTT issue tracker](https://github.com/Koenkk/zigbee2mqtt/issues).
+If you find any issues with the app, please check the [issue tracker](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/issues) for similar issues before creating one. If your issue is regarding specific devices or, more generally, an issue that arises after Zigbee2MQTT has successfully started, it should likely be reported in the [Zigbee2MQTT issue tracker](https://github.com/DominikOOrganization/zigbee2mqtt/issues).
 
 Feel free to create a PR for fixes and enhancements.
 
