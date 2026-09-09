@@ -5,7 +5,7 @@ bashio::log.info "Preparing to start..."
 # Check if HA supervisor started
 # Workaround for:
 # - https://github.com/home-assistant/supervisor/issues/3884
-# - https://github.com/dominikoorganization/hassio-zigbee2mqtt/issues/387
+# - https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/issues/387
 bashio::config.require 'data_path'
 
 # Socat

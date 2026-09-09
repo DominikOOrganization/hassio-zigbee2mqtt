@@ -1,24 +1,24 @@
 <div align="center">
-    <a href="https://github.com/dominikoorganization/hassio-zigbee2mqtt">
+    <a href="https://github.com/zigbee2mqtt/hassio-zigbee2mqtt">
         <img width="150" height="150" src="zigbee2mqtt/logo.png">
     </a>
     <br>
     <br>
     <div style="display: flex;">
-        <a href="https://github.com/dominikoorganization/hassio-zigbee2mqtt/actions?query=workflow%3ACI">
-            <img src="https://github.com/dominikoorganization/hassio-zigbee2mqtt/workflows/CI/badge.svg">
+        <a href="https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/actions?query=workflow%3ACI">
+            <img src="https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/workflows/CI/badge.svg">
         </a>
-        <a href="https://github.com/dominikoorganization/hassio-zigbee2mqtt/releases">
+        <a href="https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/releases">
             <img src="https://img.shields.io/github/release/zigbee2mqtt/hassio-zigbee2mqtt.svg">
         </a>
-        <a href="https://github.com/dominikoorganization/hassio-zigbee2mqtt/stargazers">
+        <a href="https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/stargazers">
             <img src="https://img.shields.io/github/stars/zigbee2mqtt/hassio-zigbee2mqtt.svg">
         </a>
         <a href="https://discord.gg/dadfWYE">
             <img src="https://img.shields.io/discord/556563650429583360.svg">
         </a>
     </div>
-    <h1>Official Zigbee2MQTT Home Assistant app Dominik Ochlast</h1>
+    <h1>Official Zigbee2MQTT Home Assistant app</h1>
 </div>
 
 > [!CAUTION]
@@ -27,7 +27,7 @@
 ## Installation
 
 1. If you don't have an MQTT broker yet; in Home Assistant go to **[Settings → Apps → App store](https://my.home-assistant.io/redirect/supervisor_store/)** and install the **[Mosquitto broker](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mosquitto)** app, then start it.
-1. Go back to the **App store**, click **⋮ → Repositories**, fill in</br> `https://github.com/dominikoorganization/hassio-zigbee2mqtt` and click **Add → Close** or click the **Add repository** button below, click **Add → Close** (You might need to enter the **internal IP address** of your Home Assistant instance first).
+1. Go back to the **App store**, click **⋮ → Repositories**, fill in</br> `https://github.com/zigbee2mqtt/hassio-zigbee2mqtt` and click **Add → Close** or click the **Add repository** button below, click **Add → Close** (You might need to enter the **internal IP address** of your Home Assistant instance first).
    [![Open your Home Assistant instance and show the add app repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fzigbee2mqtt%2Fhassio-zigbee2mqtt)
 1. The repository includes two apps:
    - **Zigbee2MQTT** is the stable release that tracks the released versions of Zigbee2MQTT. (**recommended for most users**)
@@ -48,7 +48,7 @@
      ```
      If you don't know the port and you have just one USB device connected to your machine try `/dev/ttyACM0` or `/dev/ttyUSB0` or `/dev/ttyAMA0`. Else use the [Home Assistant CLI](https://www.home-assistant.io/common-tasks/os#home-assistant-via-the-command-line) and execute `ha hardware info` to find out.
 
-For more information see [the documentation](https://github.com/dominikoorganization/hassio-zigbee2mqtt/blob/master/zigbee2mqtt/DOCS.md).
+For more information see [the documentation](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/blob/master/zigbee2mqtt/DOCS.md).
 
 ## Restoring data from a standalone installation
 
@@ -69,7 +69,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 All notable changes to this project will be documented in the [CHANGELOG.md](zigbee2mqtt/CHANGELOG.md) file.
 
-Version for releases is based on [Zigbee2MQTT](https://github.com/DominikOOrganization/zigbee2mqtt) format: `X.Y.Z`.
+Version for releases is based on [Zigbee2MQTT](https://github.com/Koenkk/zigbee2mqtt) format: `X.Y.Z`.
 
 Any changes on the app that do not require a new version of Zigbee2MQTT will use the format: `X.Y.Z-A` where `X.Y.Z` is fixed on the Zigbee2MQTT release version and `A` is related to the app.
 
@@ -77,7 +77,7 @@ Edge version will not maintain a CHANGELOG and doesn't have a version.
 
 ## Issues
 
-If you find any issues with the app, please check the [issue tracker](https://github.com/dominikoorganization/hassio-zigbee2mqtt/issues) for similar issues before creating one. If your issue is regarding specific devices or, more generally, an issue that arises after Zigbee2MQTT has successfully started, it should likely be reported in the [Zigbee2MQTT issue tracker](https://github.com/DominikOOrganization/zigbee2mqtt/issues).
+If you find any issues with the app, please check the [issue tracker](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/issues) for similar issues before creating one. If your issue is regarding specific devices or, more generally, an issue that arises after Zigbee2MQTT has successfully started, it should likely be reported in the [Zigbee2MQTT issue tracker](https://github.com/Koenkk/zigbee2mqtt/issues).
 
 Feel free to create a PR for fixes and enhancements.
 
