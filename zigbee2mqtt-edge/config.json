@@ -83,5 +83,5 @@
     "watchdog": "str?",
     "force_onboarding": "bool?"
   },
-  "image": "ghcr.io/DominikOOrganization/zigbee2mqtt-edge-{arch}"
+  "image": "ghcr.io/zigbee2mqtt/zigbee2mqtt-edge-{arch}"
 }
